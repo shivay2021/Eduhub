@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Ramdeo Janta Madhyamik Vidyalay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e95bfd129.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt=""></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="About.html" target="_blank">About</a></li>
+                    <li><a href="Courses.html" target="_blank">Course</a></li>
+                    <li><a href="Blog.html" target="_blank">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <!--Contact Us-->
+
+    <section class="location">
+
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.657622579312!2d84.89840587516483!3d22.2530655797206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201f72bbd561c3%3A0xab5c70e76a7b5a!2sNational%20Institute%20of%20Technology%2C%20Rourkela!5e0!3m2!1sen!2sin!4v1688321425616!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+
+            <div class="contact-col">
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road,ABC Building</h5>
+                        <p>NIT Rourkela,Odisha</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91-9621990878</h5>
+                        <p>Monday to Sunday,10AM to 6AM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>123admin@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                 <form action="">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your mail">
+                 </form>
+                 <input type="text" placeholder="Enter your subject">
+                 <textarea rows="8" placeholder="Message"></textarea>
+                 <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti nostrum eos dolorum suscipit quisquam
+            tenetur, quia quidem soluta reiciendis ea est optio voluptatum doloremque odio. Atque nesciunt eum
+            recusandae voluptas.</p>
+         <!-- <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>  -->
+
+        <div class="wrapper">
+            <div class="icon facebook">
+                <div class="tooltip">Facebook</div>
+                <span><i class="fab fa-facebook"></i></span>
+            </div>
+            <div class="icon twitter">
+                <div class="tooltip">Twitter</div>
+                <span><i class="fab fa-twitter"></i></span>
+            </div>
+            <div class="icon instagram">
+                <div class="tooltip">Instagram</div>
+                <span><i class="fab fa-instagram"></i></span>
+            </div>
+            <div class="icon github">
+                <div class="tooltip">Github</div>
+                <span><i class="fab fa-github"></i></span>
+            </div>
+            <div class="icon youtube">
+                <div class="tooltip">Youtube</div>
+                <span><i class="fab fa-youtube"></i></span>
+            </div>
+         </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let navlink = document.getElementById("navlink");
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
